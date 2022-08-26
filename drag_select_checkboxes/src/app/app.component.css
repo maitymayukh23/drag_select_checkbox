@@ -1,0 +1,19 @@
+.root {
+    --col: 5;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(var(--col), 1fr);
+    width: fit-content;
+    background-color: aquamarine;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
